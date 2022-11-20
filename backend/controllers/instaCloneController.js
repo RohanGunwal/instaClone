@@ -1,7 +1,6 @@
 const Post = require("../models/instaCloneModel");
 
 const createPost = (req, res) => {
-  console.log(req.body);
   let d = new Date().toDateString().split(" ").splice(1, 3);
   let newDate = `${d[1]} ${d[0]} ${d[2]}`;
   const newPost = new Post({
