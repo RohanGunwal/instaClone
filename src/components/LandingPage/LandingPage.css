@@ -1,0 +1,29 @@
+.landingPage {
+  display: flex;
+  flex-direction: row;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+
+.landingPage img {
+  height: 600px;
+  border-radius: 7px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.content h2 {
+  color: green;
+}
+
+.btn {
+  padding: 8px 20px;
+}

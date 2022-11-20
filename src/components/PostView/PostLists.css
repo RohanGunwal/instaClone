@@ -1,0 +1,64 @@
+.post {
+  max-width: 700px;
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 20px;
+  padding-top: 5px;
+}
+
+.card-header .details {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-header .details .name {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: -2px;
+  letter-spacing: 1px;
+}
+
+.card-header .details .location {
+  color: #aaa;
+  align-self: flex-start;
+}
+
+.card-header i {
+  font-size: 20px;
+}
+
+.card img {
+  height: 380px;
+  object-fit: cover;
+}
+
+.card-footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-footer .post-details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-footer .post-details .interact .logo {
+  display: flex;
+  gap: 20px;
+  font-size: 21px;
+}
+
+.card-footer .post-details .interact .likes {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.card-footer .description {
+  display: flex;
+  margin: 20px 0px;
+  font-weight: bold;
+  text-transform: capitalize;
+}

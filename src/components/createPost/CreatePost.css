@@ -1,0 +1,15 @@
+.createPost form {
+  max-width: 800px;
+  margin: 0 auto;
+  border-radius: 10px;
+  border: 1px solid #eee;
+}
+
+.createPost form input[type="submit"] {
+  padding: 7px 30px;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+.input-group input:last-child() {
+  margin-left: 20px;
+}
